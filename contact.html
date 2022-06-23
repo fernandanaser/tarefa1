@@ -6,28 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <img width="100" src="./image/cat.png" alt="logo">
-        <span>Melhores alunos do VemSer de todos os tempos</span>
+        <section class="logo">
+            <div>
+                <a href="./home.html">
+                    <img width="100" src="./image/cat.png" alt="logo">
+                </a>
+            </div>
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="home.html">Home</a>
-                </li>
-                <li>
-                    <a href="about.html">Sobre</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contato</a>
-                </li>
-            </ul>
-        </nav>
+
+            <p>Melhores alunos do VemSer de todos os tempos</p>
+
+        </section>
+
+            <div class="header-menu">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="home.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+        
+
     </header>
 
+    <section>
     <form>
         <label for="username">Digite seu nome completo</label>
         <input name="username" placeholder="Nome completo" type="text">
@@ -48,23 +64,24 @@
         <br><br>
         <input type="submit" value="Salvar" name="" id="">
     </form>
+    </section>
 
     <footer>
-        <nav>
-            <ul>
-                <li>
-                    <a href="home.html">Home</a>
-                </li>
-                <li>
-                    <a href="about.html">Sobre</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contato</a>
-                </li>
-            </ul>
-        </nav>
-
-        <address>AV. Andarai 531 - Porto Alegre</address>
+        <div class="container">
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="home.html">Sobre</a></li>
+                        <li><a href="home.html">Contato</a></li>
+                    </ul>
+                </nav>
+                <address>
+                    AV. Andarai 531 - Porto Alegre
+                </address>
+            </div>
+        </div>
+ 
     </footer>
 </body>
 
