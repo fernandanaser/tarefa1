@@ -69,6 +69,15 @@ header nav ul li a{
     color: white;
 }
 
+.endereco {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.endereco iframe {
+    padding-top: 20px;
+}
+
 .main-text p {
     margin-bottom: 20px;
     text-align: justify;
